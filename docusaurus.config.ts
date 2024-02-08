@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Sapia tech sharing',
+  title: 'Dinosaurs tech sharing',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -55,6 +55,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      apiKey: "17864b2327d3c62916392b6a5e90fe73",
+      appId: "JCUUCU7KZ0",
+      indexName: "docusaurus-sharing",
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
